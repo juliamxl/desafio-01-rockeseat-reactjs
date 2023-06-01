@@ -1,0 +1,31 @@
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textCriadas{
+    color: var(--blue);
+    font-weight: 600;
+}
+
+.textConcluidas{
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.textCriadas span{
+    color: var(--gray-200);
+    background-color:var(--gray-400);
+    padding: 0px 8px;
+    font-weight: 400;
+    border-radius:10px ;
+}
+
+.textConcluidas span{
+    color: var(--gray-200);
+    background-color:var(--gray-400);
+    padding: 0px 8px;
+    font-weight: 400;
+    border-radius:10px ;
+}
+

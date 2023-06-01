@@ -1,0 +1,21 @@
+.container {
+    width: 806px;
+    gap: 10px;
+    display: flex;
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tarefas {
+    width: 806px;
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tarefa {
+    margin-top: 30px;
+}

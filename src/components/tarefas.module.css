@@ -1,0 +1,75 @@
+.tarefa{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    background-color: var(--gray-400);
+    margin-top: 20px;
+
+}
+
+.taskDid{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    margin-top: 20px;
+
+    color: var(--gray-100);
+    text-decoration: line-through;
+}
+
+.taskDid .checkbox{
+    background-color: var(--purple);
+    background-image: url(/src/assets/correct.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: static;
+}
+
+
+.taskText{
+    width: 40rem;
+    color: var(--gray-100);
+    margin-left: 16px;
+    word-break: break-all;
+}
+
+.trash{
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.trash:hover{
+    color: var(--danger);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.boxTarefa{
+    display: flex;
+}
+
+.checkbox{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: solid 2px var(--blue);
+    cursor: pointer;
+}
+
+.checkbox:hover{
+    cursor: pointer;
+    background-color: var(--blue-dark);
+    transition: 0.4s;
+}
+
+
+
+
+
+

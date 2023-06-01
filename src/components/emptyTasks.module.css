@@ -1,0 +1,14 @@
+.emptyTasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+    border-radius: 12px;
+    border-top: 1px solid var(--gray-300);
+}
+
+.emptyTasks img{
+    width: 100px;    
+    margin: 4rem 0rem 2rem 0;
+}
